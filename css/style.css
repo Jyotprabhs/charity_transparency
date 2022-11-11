@@ -48,20 +48,26 @@ a:active{
 }
 .left-navbar{
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
+    margin: 0 auto; 
 }
 
 .dropdown,
 .search,
 .support {
+    margin: 10px;
     float: right;
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:space-around;
 }
 
 .dropbtn {
-
+    text-decoration: none;
+    border: none;
     color: black;
-    padding: 16px;
+    padding: 10px;
     font-size: 20px;
     border: none;
 }
@@ -76,16 +82,16 @@ a:active{
     position: absolute;
 
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    
     z-index: 1;
 
 }
 
-.dropdown-content a {
+.dropdown-content button {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
+   
 }
 /*---
 .dropdown-content a:hover {
@@ -142,27 +148,40 @@ a:active{
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
+.container{
+   width: 300px;
+   height: auto; 
+   background-color: white;
+   border-style: outset;
+   border-radius: 20px;
+   margin: 10px;
+   padding: 20px;
+}
 
 .loginn {
+    margin: 20px;
     background-color: #00b5E5;
     border: 1in;
     text-align: center;
     border-radius: 20px;
-    width: 290px;
-    height: 100px;
+    width: 200px;
+    height: 50px;
     left: 44px;
     top: 210px;
+    cursor: pointer;
 }
 
 .guest {
+    margin: 20px;
     background-color: white;
-    border: 1in;
+    border: 2px solid black;
     text-align: center;
     border-radius: 20px;
-    width: 290px;
-    height: 100px;
+    width: 200px;
+    height: 50px;
     left: 41px;
     top: 47px;
+    cursor: pointer;
 
 }
 
@@ -288,6 +307,11 @@ body {
     margin-top: 70px;
     margin-left: 50px;
 }
+ #email{
+   width: 300px;
+   height:50px;
+    
+}
 .subs-button button{
     background-color: #00B5E5;
     border: 2px solid black;
@@ -310,6 +334,7 @@ body {
     height: 16px;
     top: 25px;
     left: 97px;
+    padding: 5px;
 }
 
 #search {
