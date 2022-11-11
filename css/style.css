@@ -157,6 +157,8 @@ h2{
 }
 body {
     font-family: Figtree;
+
+
 }
 .subscription{
     position:relative;
@@ -168,16 +170,25 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    
+    transform: translate(-50%, -50%);
   /*--  text-align: center;
   justify-content: center;
   align-items:center;*/
  
 }
-.news
+.newsletter{
+    margin: 100px;
+    padding:20px;
+    top: 50%;
+    left: 50%;
+}
 .uptodate{
     display:flex;
     flex-direction: column;
+    margin: 100px;
+    padding:20px;
+    top: 50%;
+    left: 50%;
 }
 
 
