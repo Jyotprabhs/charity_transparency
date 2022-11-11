@@ -74,6 +74,7 @@ li {
     margin-right: 20px;
     display:flex;
     flex-direction: row;
+    padding: ;
   }
  .support {
 
@@ -140,6 +141,7 @@ top: 47px;
     display: flex;
     flex-direction: column;
     padding: 20px;
+    text-align: justify;
 }
 .header{
     display: flex;
@@ -148,4 +150,46 @@ top: 47px;
 h2{
    text-align: center;
    font-size: 40px;
+}
+#wavyLine {
+    width: 266px;
+    height: 31px;
+}
+body {
+    font-family: Figtree;
+}
+.subscription{
+    position:relative;
+    text-align: center;
+}
+.subs{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+  /*--  text-align: center;
+  justify-content: center;
+  align-items:center;*/
+ 
+}
+.news
+.uptodate{
+    display:flex;
+    flex-direction: column;
+}
+
+
+#downArrow {
+    width: 26px;
+    height: 16px;
+    top: 25px;
+    left: 97px;
+}
+#search {
+    width: 38px;
+    height: 40px;
+    top: 24px;
+    left: 1138px;
 }
