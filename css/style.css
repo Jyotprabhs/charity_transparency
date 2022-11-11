@@ -7,20 +7,25 @@ ul {
 li {
     display: inline;
 }
-.right-navbar{
+
+.right-navbar {
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.dropdown,
+.search,
+.support {
+    float: right;
     display: inline;
 }
 
-.dropdown, .search, .support{
-    float:right;
-    display: inline;
-} 
-
 .dropbtn {
-    background-color: #04AA6D;
-    color: white;
+
+    color: black;
     padding: 16px;
-    font-size: 16px;
+    font-size: 20px;
     border: none;
 }
 
@@ -32,10 +37,11 @@ li {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+
 }
 
 .dropdown-content a {
@@ -56,30 +62,63 @@ li {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-.card-menu{
+
+.card-menu {
     display: flex;
     flex-direction: row;
 }
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
     font-family: arial;
-  }
-  .button-position{
+}
+
+.button-position {
     margin-right: 20px;
-    display:flex;
-    flex-direction: row;
-  }
- button{
-    width: 175px;
-height: 40px;
-left: 218px;
-top: 166px;
- }
-  
-  .card button {
+    margin-left: 20px;
+    display: flex;
+   }
+
+.support {
+
+    background-color: #00B5E5;
+    border: 1in;
+    text-align: center;
+    border-radius: 20px;
+    width: 199px;
+    height: 64px;
+    left: 1202px;
+    top: 11px;
+
+}
+
+.loginn {
+    background-color: #00b5E5;
+    border: 1in;
+    text-align: center;
+    border-radius: 20px;
+    width: 290px;
+    height: 100px;
+    left: 44px;
+    top: 210px;
+}
+
+.guest {
+    background-color: white;
+    border: 1in;
+    text-align: center;
+    border-radius: 20px;
+    width: 290px;
+    height: 100px;
+    left: 41px;
+    top: 47px;
+
+}
+
+.card button {
     border: none;
     outline: 0;
     padding: 12px;
@@ -89,15 +128,103 @@ top: 166px;
     cursor: pointer;
     width: 100%;
     font-size: 18px;
-  }
-  
-  .card button:hover {
+}
+
+.card button:hover {
     opacity: 0.7;
-  }
+}
 
 .logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%
+}
+
+.howSection {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.explain {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: justify;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#wavyLine {
+    width: 266px;
+    height: 31px;
+}
+
+body {
+    font-family: Figtree;
+
+
+}
+
+.subscription {
+    position: relative;
+    text-align: center;
+}
+
+.subs {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*--  text-align: center;
+  justify-content: center;
+  align-items:center;*/
+
+}
+
+.newsletter {
+    margin: 100px;
+    padding: 20px;
+    top: 20%;
+    left: 50%;
+}
+
+.uptodate {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+}
+
+
+#downArrow {
+    width: 26px;
+    height: 16px;
+    top: 25px;
+    left: 97px;
+}
+
+#search {
+    width: 38px;
+    height: 40px;
+    top: 24px;
+    left: 1138px;
+}
+
+#bottomImage {
+    width: 1292px;
+    height: 472px;
 }
