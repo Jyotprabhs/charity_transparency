@@ -348,3 +348,14 @@ body {
     width: 1200px;
     height: 600px;
 }
+footer{
+    width: 1200px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+ 
+ul li{
+    font-family:"Figtree";
+}
